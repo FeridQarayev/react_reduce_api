@@ -21,8 +21,9 @@ function App() {
             {
               users.filter((filltered)=>{
                 let name = `${filltered?.name?.title} ${filltered?.name?.first} ${filltered?.name?.last}`;
+                let City = `${filltered?.location?.city} ${filltered?.location?.state} ${filltered?.location?.country}`;
                 if(inpVal=='') return filltered
-                if (name.toLowerCase().includes(inpVal.toLowerCase())) {
+                if (name.toLowerCase().includes(inpVal.toLowerCase())||City.toLowerCase().includes(inpVal.toLowerCase())) {
                   return filltered
                 }
               })
