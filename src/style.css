@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    overflow: hidden;
+    width: 25%;
+    border-radius: 7px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+.container__up{
+    background: blue;
+    width: 100%;
+    padding: 25px;
+}
+.container__up h4{
+    color: white;
+    font-size: 1.5rem;
+}
+.container__up p{
+    margin-top: 6px;
+    font-size: 13px;
+    color: lightgrey;
+}
+.container__up input{
+    width: 85%;
+    border-radius: 15px;
+    background-color: darkblue;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    line-height: 35px;
+    margin-top: 10px;
+    color: white;
+}
+.container .list{
+    max-height: 400px;
+    overflow-x: auto;
+    background: white;
+}
+.list ul{
+    padding: 0;
+    margin: 0;
+}
+.list li{
+    display: flex;
+    align-items: center;
+    padding: 15px 0 22px 20px;
+    border-bottom: 1px solid lightgrey;
+}
+li img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.user__info{
+    margin-left: 15px;
+}
+.user__info h4{
+    margin-bottom: 6px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.user__info span{
+    font-size: 14px;
+}
+
+
+
